@@ -1,0 +1,126 @@
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+}
+
+.navbar-nav > li > a {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:hover {
+  color: #555 !important;
+  background-color: #e7e7e7 !important;
+}
+
+#app {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #4d4d4d;
+  margin: 0 auto;
+}
+
+.logo-img {
+  width: 19%;
+  height: 19%;
+  margin: 1rem;
+}
+
+.header-app {
+  margin: 2rem 0 1rem;
+}
+
+a.header-title {
+  font-family: 'Armata Regular', 'Armata';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26px;
+  text-align: left;
+  color: #000000 !important;
+}
+
+a.header-title:focus, a.header-title:hover {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+
+.home-img {
+  margin: 2rem 0;
+}
+
+.home-subtitle {
+  color: #FF9900;
+  margin-bottom: 3rem;
+}
+
+.home-center {
+  min-height: 85%;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0 !important;
+  text-align: center;
+}
+
+.home-container {
+  width: 100%;
+}
+
+.home-description {
+  margin-top: 3rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.img-rooms {
+  width: 100%;
+  max-height: 30rem;
+  -moz-border-radius-topleft: 2px;
+  -moz-border-radius-topright: 2px;
+}
+
+.panel-body > h5 {
+  font-weight: bold;
+}
+
+.detail-room h1 {
+  color: orange;
+}
+
+.detail-room {
+  width: 100%;
+  max-height: 50rem;
+  -moz-border-radius-topleft: 2px;
+  -moz-border-radius-topright: 2px;
+}
+
+.list-feature {
+  margin-top: 1rem;
+  padding-left:20px;
+  text-indent:2px;
+  list-style: none;
+  list-style-position:outside;
+}
+
+.list-feature > li:before {
+  content: '✔';
+  margin-left: -2.3rem;
+  margin-right: 0.1rem;
+  font-size: 18px;
+}
+
+.list-feature > li {
+  margin: 5px 0;
+  font-size: 18px;
+}
